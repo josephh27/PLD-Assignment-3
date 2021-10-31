@@ -19,4 +19,5 @@ myAge = inputMyAge()
 myAddress = inputMyAddress()
 personalInfo(myName, myAge, myAddress)
 print("I wish you all the best summoner")
+print("I wish one more commit added")
 
