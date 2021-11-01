@@ -21,5 +21,5 @@ def output(applePara, yourChangePara):
 appleS = askApplePrice()
 money = askMoneyOfUser()
 yourChange = moneyChange()
-apple1 = format(affordableApple(), '.2f')
+apple1 = format(affordableApple(), '.0f')   #Removing the decimal place in this part since you can't have "decimal" numbers of apples
 output(apple1, yourChange)
